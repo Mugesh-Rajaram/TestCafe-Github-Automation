@@ -1,0 +1,15 @@
+{
+  "name": "github_sample",
+  "version": "1.0.0",
+  "description": "Login to https://github.com page and updating a file by commiting with some some comments",
+  "main": "github_validation.js",
+  "dependencies": {
+    "testcafe": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "testcafe chrome github_validation.js --skip-js-errors"
+  },
+  "author": "",
+  "license": "ISC"
+}
