@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "testcafe chrome github_validation.js --skip-js-errors"
+    "test": "testcafe chrome ./github/commit_validation.js --skip-js-errors"
   },
   "author": "",
   "license": "ISC"
